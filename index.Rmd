@@ -1,0 +1,43 @@
+---
+title       : Project Course
+subtitle    : Developing Data Products
+author      : Pitch by Ivo Alabe
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Goal
+
+The purpose of this Shiny app is to make an  Regression Analysis of the variable Miles Per Gallon (mpg) versus other variables that are present int the "mtcars" dataset. This dataset is automatically loaded from the Datasets Package.
+
+
+---
+## Summary of "mtcars" 
+
+Here you have a summary of the dataset and its 11 different variables.
+
+````{r}
+summary(mtcars)
+````
+
+
+---
+## Shiny aplication
+
+The shiny application can be found in:
+
+
+[https://ivo-alabe.shinyapps.io/courseproject/](https://ivo-alabe.shinyapps.io/courseproject/) 
+
+
+---
+## Conclusion
+
+From the analysis of variance table it can be concluded that am, cyl, disp, wt, hp are the variables that significantly impact mpg.
+
+Thank you!
